@@ -27,6 +27,18 @@ http://www.expressjs.com.cn/
 
 http://www.expressjs.com.cn/starter/generator.html 
 
+# demo 使用
+
+> 在npm start 启动后
+
+> 访问　http://127.0.0.1:3000/users/　 地址
+
+>> 对应 routes/users.js 文件的　router.get('/' ...方法　
+
+
+
+------
+
 
 npm install casper.js
 
