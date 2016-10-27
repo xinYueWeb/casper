@@ -1,5 +1,26 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  .layout
+    .header
+      i.headerImg $
+      span 爬虫功能初版
+    .topBox
+      .urlSide.fl
+        p 写几个试试语法
+        label 请输入目标url：
+        input(name = 'targetUrl')
+      .rulesSide.fr
+        p 蛮6的语法
+        label 请输入需要抓取的基本规则：
+        input(name = 'rules')
+      .clearBoth
+      .detailRules
+        p 详细的规则是
+      .sub
+        button#submit 提交
+    .viewBox
+    .resultBox
+      p 这里需要展示抓取的内容,暂时给600px的高
+  script(src="js/lib/jquery.min.js")
+  script(src="js/main.js")

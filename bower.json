@@ -1,0 +1,20 @@
+{
+  "name": "casper",
+  "description": "\"网络爬虫相关\"",
+  "main": "",
+  "authors": [
+    "xuexing <xuexing@time-stone.cn>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "jQuery#1.11.3"
+  }
+}

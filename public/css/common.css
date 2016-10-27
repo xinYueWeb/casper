@@ -1,0 +1,20 @@
+*{border: 1px solid #aff;}
+body,h1,h2,h3,h4,h5,h6,p,ul,li,dl,dt,dd,div{margin: 0;padding: 0;}
+ul,li,dl,dt,dd{list-style: none;}
+a{text-decoration: none;}
+img{border: none;}
+.fl{float: left;}
+.fr{float: right;}
+.clearBoth{clear: both;}
+.layout{width: 1028px;margin: 0 auto;}
+.headerImg{ width: 19px;height: 19px;display: inline-block; text-align: center; background-color: #f99; color: #aff; border: 1px solid #f99; border-radius: 50%;}
+.header span{height: 19px;}
+.topBox:after{content: ''; display: block; clear: both;}
+
+.urlSide{width: 510px;}
+.rulesSide{width: 510px;}
+.detailRules{}
+
+.viewBox{display: none;}
+.resultBox{height: 600px;}
+
